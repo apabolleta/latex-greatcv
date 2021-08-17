@@ -1,0 +1,163 @@
+% **********************************************************************************
+% Great CV LaTeX document
+% 
+% Author:   Asier Pabolleta Martorell <asier.pabolleta@gmail.com>
+% License:  See LICENSE
+% **********************************************************************************
+
+
+% ==================================================================================
+%
+%   DOCUMENT DEFINITION & SETUP
+%
+% ==================================================================================
+
+% Load Great CV document class
+\documentclass{greatcv}
+
+% CV definitions
+\cvname{Asier Pabolleta Martorell}
+\cvdescription{Graduado Teleco}
+\cvbirthday{14 de Febrero de 1999}
+\cvaddress{Calle Mayor, 52, 3º Izda., \\12345 Pamplona, \\Navarra}
+\cvphone{+34 555 555 555}
+\cvemail{asier.pabolleta@gmail.com}
+\cvlinkedin{https://www.linkedin.com/in/asier-pabolleta-martorell/}
+\cvgithub{https://github.com/asierpabolleta}
+\cvgitlab{https://gitlab.com/asierpabolleta}
+
+% Package requirements
+\usepackage{fontawesome}
+
+% ==================================================================================
+%
+%   DOCUMENT
+%
+% ==================================================================================
+
+\begin{document}
+
+% ----------------------------------------------------------------------------------
+%   CV SIDEBAR
+% ----------------------------------------------------------------------------------
+
+\begin{cvsidebar}
+
+\cvmakeprofile
+
+\section*{Sistemas operativos}
+
+{
+\LARGE
+\color{cvsidebariconcolor}
+\faWindows
+\hspace{\baselineskip}
+\faLinux
+}
+
+\section*{Lenguajes}
+
+\cvskill{C/C++}{6}
+\cvskill{Java}{4}
+\cvskill{Python}{8}
+\cvskill{JavaScript}{6}
+\cvskill{PHP}{7}
+\cvskill{Arduino}{9}
+\cvskill{SQL}{6}
+
+\section*{Herramientas}
+
+\cvitem{Microsoft Office: Word, Excel, Power Point, Access, Outlook...}
+\cvitem{Visual Studio Code}
+\cvitem{AutoCAD}
+\cvitem{Quartus}
+\cvitem{OrCAD}
+\cvitem{Arduino IDE}
+
+\end{cvsidebar}
+
+% ----------------------------------------------------------------------------------
+%   CV CONTENT
+% ----------------------------------------------------------------------------------
+
+Graduado en \textbf{Ingeniería de Tecnologías y Servicios de Telecomunicaciones} por la Universidad Politécnica de Cataluña (UPC, Barcelona). Actualmente realizando proyectos y cursos online.
+
+\section*{Experiencia profesional}
+
+\cvtimelineitem{Mar. 2020}{Sep. 2020}{
+{\Large\bfseries Prácticas extracurriculares} \\
+{\large\itshape Gesinor Servicio de Prevención SLL}
+\begin{itemize}
+    \item[--] Mantenimiento de sistemas Windows 7/8.1/10 y Windows Server 2012/2016/2019
+    \item[--] Mantenimiento de bases de datos SQL Server 2019 y SQL Server Express
+    \item[--] Desarrollo de aplicaciones en Visual Basic for Applications (VBA) y framework .NET
+    \item[--] Participación en proyecto \href{https://gesinor.com/empresas-saludables/sensinor/}{Sensinor}. Implementación de un prototipo de exoesqueleto con sensores inerciales para análisis ergonómico
+    \item[--] Mantenimiento informático
+\end{itemize}
+}
+
+\section*{Datos académicos}
+
+\cvtimelineitem{Sep. 2017}{Jun. 2021}{
+{\Large\bfseries Grado en Ingeniería de Servicios y Tecnologías de Telecomunicaciones} \\
+{\large\itshape Universitat Politècnica de Catalunya (UPC, Campus Nord, Barcelona)} \\
+3º curso en la Universidad Pública de Navarra en el programa de movilidad SICUE (UPNA, Campus Arrosadía, Navarra)
+}
+
+\cvtimelineitem{Sep. 2015}{Jun. 2017}{
+{\Large\bfseries Bachiller} \\
+{\large\itshape IES Iturrama BHI (Pamplona, Navarra)} \\
+Matrícula de Honor en ciclo formativo.
+}
+
+\cvtimelineitem{Sep. 2011}{Jun. 2015}{
+{\Large\bfseries ESO} \\
+{\large\itshape IESO Berriozar BHI (Berriozar, Navarra)} \\
+Matrícula de Honor en ciclo formativo.
+}
+
+\section*{Publicaciones}
+
+Pabolleta Martorell, Asier (Junio 2021). \textit{"Improvement of a positioning system for assisted and autonomous driving"}. UPC, Escola Tècnica Superior d'Enginyeria de Telecomunicacions de Barcelona.
+
+\section*{Formación}
+
+\cvdateitem{2016}{
+{\Large\bfseries Curso de Iniciación de Entrenador de Patinaje y Hockey sobre Patines} \newline
+{\large\itshape Federación Navarra de Patinaje}
+}
+
+\section*{Idiomas \& Certificados}
+
+\cvlanguage{Castellano}{Nativo}
+\cvlanguage{Euskara}{Nativo - C1 \cvcheckicon}
+\cvlanguage{Inglés}{Intermedio alto - B2 \cvcheckicon}
+\cvlanguage{Catalán}{Nivel básico}
+\cvlanguage{Francés}{Nivel básico}
+
+\section*{Participación en proyectos}
+
+\begin{itemize}
+    \item Participación en competición CanSat Caesaraugusta, Zaragoza. Año 2017.
+    \item Desarrollo de un prototipo de pedal multiefectos
+    \item Diseño e impresión 3D
+    \item Diseño e impresión de PCB
+    \item Desarrollo de un servicio web en colaboración con el Institut Català de la Salut (ICS)
+\end{itemize}
+
+\section*{Intereses}
+
+\begin{itemize}
+    \item Proyectos y software de código libre
+    \item Administración de sistemas Linux
+    \item Desarrollo web
+    \item Internet of Things
+\end{itemize}
+
+\section*{Otros datos de interés}
+
+\begin{itemize}
+    \item Carnet de conducir tipo B
+\end{itemize}
+
+\end{document}
