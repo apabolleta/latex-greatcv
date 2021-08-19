@@ -61,7 +61,7 @@
 \newcommand{\@cvphone}{Phone Number}
 % Email address
 \newcommand{\cvemail}[1]{\renewcommand{\@cvemail}{#1}}
-\newcommand{\@cvemail}{Email address}
+\newcommand{\@cvemail}{Email Address}
 % Profile picture
 \newcommand{\cvpicture}[1]{\renewcommand{\@cvpicture}{#1}}
 \newcommand{\@cvpicture}{}
