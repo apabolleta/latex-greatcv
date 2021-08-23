@@ -5,7 +5,7 @@ Great CV is a template and a document class created with [LaTeX](https://www.lat
 
 | Great CV - Page 1 | Great CV - Page 2 |
 | :---:             | :---:             |
-| ![cv-page-0](media/page-0.png)] | ![cv-page-1](media/page-1.png) |
+| ![cv-page-0](media/page-0.png) | ![cv-page-1](media/page-1.png) |
 
 The document class definition in `greatcv.cls` contains predefined commands and environments to customize your CV document. Many color and lenght definitions are also customizable to adjust the layout and appearance to your requirements.
 
