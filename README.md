@@ -130,11 +130,11 @@ To use the `greatcv` document class import the `greatcv.cls` file from the pream
 
 \begin{document}
 
-%%% MAIN CV CONTENT%%%
+%%% MAIN CV CONTENT %%%
 
 \begin{cvsidebar}
 
-%%% SIDEBAR CV CONTENT%%%
+%%% SIDEBAR CV CONTENT %%%
 
 \end{cvsidebar}
 
