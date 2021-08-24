@@ -396,9 +396,8 @@ contents={\cvbackground}
 \hypersetup{
     colorlinks=true,
     urlcolor=blue,
-    pdftitle={CV \@cvname},
-    pdfauthor={\@cvname},
-    pdfpagemode=FullScreen
+    pdftitle={Great CV},
+    pdfauthor={Asier Pabolleta Martorell <asier.pabolleta@gmail.com>},
 }
 
 % ----------------------------------------------------------------------------------
