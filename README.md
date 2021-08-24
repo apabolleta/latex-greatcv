@@ -33,10 +33,10 @@ CV definitions are predefined attributes that contain some basic information abo
 | ---  | ---         | ---           |
 | cvname | Profile name | Profile Name |
 | cvdescription | Short description | Short Description |
-| cvbirthday | Date of birth | Birthday |
-| cvaddress | Address | Address |
-| cvphone | Phone number | Phone Number |
-| cvemail | Email address | Email Address |
+| cvbirthday | Date of birth
+| cvaddress | Address |
+| cvphone | Phone number |
+| cvemail | Email address |
 | cvpicture | Profile picture URL/path |
 | cvlinkedin | LinkedIn profile URL |
 | cvgithub | GitHub account URL |
