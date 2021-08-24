@@ -52,16 +52,16 @@
 \newcommand{\@cvdescription}{Short Description}
 % Birthday
 \newcommand{\cvbirthday}[1]{\renewcommand{\@cvbirthday}{#1}}
-\newcommand{\@cvbirthday}{Birthday}
+\newcommand{\@cvbirthday}{}
 % Address
 \newcommand{\cvaddress}[1]{\renewcommand{\@cvaddress}{#1}}
-\newcommand{\@cvaddress}{Address}
+\newcommand{\@cvaddress}{}
 % Phone number
 \newcommand{\cvphone}[1]{\renewcommand{\@cvphone}{#1}}
-\newcommand{\@cvphone}{Phone Number}
+\newcommand{\@cvphone}{}
 % Email address
 \newcommand{\cvemail}[1]{\renewcommand{\@cvemail}{#1}}
-\newcommand{\@cvemail}{Email Address}
+\newcommand{\@cvemail}{}
 % Profile picture
 \newcommand{\cvpicture}[1]{\renewcommand{\@cvpicture}{#1}}
 \newcommand{\@cvpicture}{}
@@ -192,10 +192,18 @@
 
 {\color{cvsidebarsectionbackgroundcolor}\rule{\textwidth}{\cvsidebarsectionrulethickness}}\bigskip
 
-\cvinfo[\faCalendar]{Fecha de nacimiento}{\@cvbirthday}
-\cvinfo[\faMapMarker]{Dirección}{\@cvaddress}
-\cvinfo[\faPhone]{Número de teléfono}{\href{tel:\@cvphone}{\@cvphone}}
-\cvinfo[\faEnvelope]{Correo electrónico}{\href{mailto:\@cvemail}{\@cvemail}}
+\cv@ifempty{\@cvbirthday}
+        {}
+        {\cvinfo[\faCalendar]{Fecha de nacimiento}{\@cvbirthday}}
+\cv@ifempty{\@cvaddress}
+        {}
+        {\cvinfo[\faMapMarker]{Dirección}{\@cvaddress}}
+\cv@ifempty{\@cvphone}
+        {}
+        {\cvinfo[\faPhone]{Número de teléfono}{\href{tel:\@cvphone}{\@cvphone}}}
+\cv@ifempty{\@cvemail}
+        {}
+        {\cvinfo[\faEnvelope]{Correo electrónico}{\href{mailto:\@cvemail}{\@cvemail}}}
 }
 
 % Creates CV item
