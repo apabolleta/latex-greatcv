@@ -1,5 +1,5 @@
 % **********************************************************************************
-% Great CV LaTeX document class
+% Great CV LaTeX document class.
 %
 % AUTHOR:   Asier Pabolleta Martorell <apabolleta@gmail.com>
 % LICENSE:  See LICENSE
