@@ -170,12 +170,12 @@
 \cv@ifempty{\@cvpicture}
     {}
     {\includegraphics[width=\linewidth]{\@cvpicture}\bigskip\newline}
-    
+
 \begin{minipage}{0.95\linewidth}
     {\HUGE\bfseries\@cvname}\medskip
-    
+
     {\Large\@cvdescription}\bigskip
-    
+
     {
     \Huge
     \cv@ifempty{\@cvlinkedin}
