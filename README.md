@@ -3,6 +3,10 @@
 ## What is Great CV?
 Great CV is a template and a document class created with [LaTeX](https://www.latex-project.org/) for building your own *Curriculum Vitae*.
 
+|                                    |                                    |
+| ---------------------------------- | ---------------------------------- |
+| ![page-1](assets/img/maincv-1.jpg) | ![page-2](assets/img/maincv-2.jpg) |
+
 The document class definition in `greatcv.cls` contains predefined commands and environments to customize your CV document. Many color and lenght definitions are also customizable to adjust the layout and appearance to your requirements.
 
 The `maincv.tex` file contains an example on how to create the CV based on the class definition.
