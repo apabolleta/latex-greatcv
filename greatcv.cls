@@ -218,7 +218,7 @@
 %   param 2: content
 \newcommand{\cvdateitem}[2]{
 \begin{tabular}{>{\centering}m{0.15\linewidth} | p{0.8\linewidth}}
-    #1 & 
+    #1 &
     \begin{minipage}{\linewidth}
         #2
     \end{minipage}
