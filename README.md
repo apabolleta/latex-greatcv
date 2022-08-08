@@ -53,3 +53,9 @@ To use the `greatcv` document class import the `greatcv.cls` file from the pream
 \end{document}
 
 ```
+
+Build document:
+
+```bash
+$ make pdf MAIN=maincv.tex
+```
